@@ -1,0 +1,50 @@
+
+.nav-item:hover{
+    background-color:rgb(215, 223, 215);
+}
+.dropdown-item:hover{
+    background-color:rgb(215, 223, 215);
+   
+}
+
+
+.inner{
+    overflow: hidden;
+   
+}
+.inner img{
+    transition: 1.5s ease;
+}
+.inner img:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale (1.2);
+}
+.footer{
+    color: white;
+    background-color: rgb(186, 189, 155);
+}
+
+.lightbox{
+    display:none;
+    position: fixed;
+    z-index:999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background-color: dimgrey;
+}
+.lightbox img{
+    max-width: 90%;
+    max-height: 80%;
+    margin-top: 5%;
+    
+}
+.lightbox:target{
+    outline:none;
+    display: block;
+
+}    
+   
